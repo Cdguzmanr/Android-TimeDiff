@@ -80,4 +80,30 @@
         app:layout_constraintTop_toBottomOf="@+id/txtEnd"
         app:layout_constraintVertical_bias="0.602" />
 
+    <TextView
+        android:id="@+id/tvValidate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/tvEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStart"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <TextView
+        android:id="@+id/tvValidate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btnCalc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEnd"
+        app:layout_constraintVertical_bias="0.18" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

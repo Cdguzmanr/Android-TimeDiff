@@ -3,4 +3,6 @@
     <string name="time_difference">Time Difference</string>
     <string name="please_enter_a_start_time">Please Enter a Start Time</string>
     <string name="please_enter_a_end_time">Please Enter a End Time</string>
+    <string name="invalid_time_input">Invalid time input</string>
+    <string name="start_time_cannot_be_greater_than_end_time">Start Time cannot be greater than End Time</string>
 </resources>
